@@ -42,32 +42,46 @@ nav a:hover {
 }
  
 h1 {
- color: #2e31d8; /* Dark green for headings */
+ color: #17a82a; /* Dark green for headings */
+ 
 }
 h2{
- color:#17a82a
+ color:#d2b300
 }
 h3{
- color:rgb(255, 115, 0)
+ color:rgb(148, 27, 0);
+ background-color: #00000000;
 }
 h4{
  color: #17a8a1;
+ background-color: #17a82a00;
 }
 h5{
     color: #d30b0b;
-    font-size: larger;
+    
+}
+h6{
+    color: #ffffff;
 }
 p {
  color: rgb(255, 255, 255); 
 }
- 
-.container {
+container{
+    max-width: 100px;
+    margin-left: 1px;
+    margin-right: 300px;
+    padding: 2px;
+    background: #ffffff00; /* White background for content */
+    border-radius: 5px;
+    box-shadow: 0 0 10px #17a82a;
+}
+.Container {
  max-width: 800px;
  margin: auto;
  padding: 20px;
  background: #ffffff00; /* White background for content */
  border-radius: 5px;
- box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ box-shadow: 0 0 10px #17a82a;
 }
 
 label{
@@ -76,11 +90,24 @@ label{
     gap: 5px; /* Adds space between label and input/textarea */
 }
 img{
-    width: 100%;
+    
     height: auto; 
 }
 button{
     display: flex;
     flex-direction: column;
     gap: 5px; /* Adds space between label and input/textarea */
+    
+    background:    linear-gradient(#17a82a, #073763);
+    border-radius: 50px;
+    padding:       20px 45px;
+    color:         #ffffff;
+    display:       inline-block;
+    font:          normal bold 26px/1 "Roboto", sans-serif;
+    text-align:    center;
+}
+.flex{
+    display: flex;
+    align-items: start;
+    justify-content:flex-start;
 }
